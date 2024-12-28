@@ -23,7 +23,7 @@ public class Ventana_principal extends javax.swing.JFrame {
         initComponents();
         
         ventana1 = new JMenuItem("Ventana 1");
-        ventana1.addActionListener((ActionEvent e) -> {});
+        ventana1.addActionListener((ActionEvent e) -> {Ventana_1 miVentana_1 = new Ventana_1(this, true); miVentana_1.setVisible(true);});
         MenuBar.add(ventana1);
         
         ventana2 = new JMenuItem("Ventana 2");
